@@ -17,8 +17,7 @@ public class Events {
         Player p = event.getPlayer();
 
         if (Objects.equals(p.getInventory().getItemInMainHand(), "redstone")) {
-            Location loc = Player.getEyeLocation(); /* Errors are coming from here*/
-            Block b = Player.getTargetBlock(null, 5);/* and here */
+            Location loc = Player.getEyeLocation();
             Vector v = loc.getDirection().normalize();
 
             for(int i = 1 ; i <= 5 ; i++) {
