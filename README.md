@@ -1,2 +1,2 @@
-# hc-massive-lock-revamped
-Revamped massive lock plugin
+# LockPlug: A Chest Locking and Decay Plugin
+Currently in Development.
